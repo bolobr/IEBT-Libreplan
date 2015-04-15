@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.libreplan.web.orders.OrderModelTest
--------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 11, Time elapsed: 0.19 sec - in org.libreplan.web.orders.OrderModelTest

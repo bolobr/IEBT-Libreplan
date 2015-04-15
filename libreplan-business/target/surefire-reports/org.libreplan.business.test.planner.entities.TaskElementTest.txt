@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.libreplan.business.test.planner.entities.TaskElementTest
--------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec - in org.libreplan.business.test.planner.entities.TaskElementTest
