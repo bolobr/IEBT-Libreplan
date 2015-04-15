@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN"
+    "http://jetty.mortbay.org/configure.dtd">
+
+<Configure class="org.mortbay.jetty.webapp.WebAppContext">
+    <New id="libreplan-ds" class="org.mortbay.jetty.plus.naming.Resource">
+        <Arg>jdbc/libreplan-ds</Arg>
+        <Arg>
+            <New class="com.jolbox.bonecp.BoneCPDataSource">
+                <Set name="driverClass">org.postgresql.Driver</Set>
+                <Set name="jdbcUrl">jdbc:postgresql://localhost/libreplandev</Set>
+                <Set name="username">libreplan</Set>
+                <Set name="password">libreplan</Set>
+
+                <Set name="partitionCount">3</Set>
+                <Set name="minConnectionsPerPartition">5</Set>
+                <Set name="maxConnectionsPerPartition">100</Set>
+                <Set name="acquireIncrement">5</Set>
+                <Set name="idleConnectionTestPeriod">30</Set>
+            </New>
+        </Arg>
+   </New>
+</Configure>
+

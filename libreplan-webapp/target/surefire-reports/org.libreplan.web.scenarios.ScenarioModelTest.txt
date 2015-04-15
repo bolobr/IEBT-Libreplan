@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.libreplan.web.scenarios.ScenarioModelTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.396 sec - in org.libreplan.web.scenarios.ScenarioModelTest

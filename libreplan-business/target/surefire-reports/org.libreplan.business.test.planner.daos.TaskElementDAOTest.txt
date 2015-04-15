@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.libreplan.business.test.planner.daos.TaskElementDAOTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.285 sec - in org.libreplan.business.test.planner.daos.TaskElementDAOTest

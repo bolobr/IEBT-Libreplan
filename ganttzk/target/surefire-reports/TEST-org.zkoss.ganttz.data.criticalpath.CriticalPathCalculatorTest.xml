@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.28" tests="63" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_05/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.5-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/gcordeiro/Freelancer/libreplan"/>
+    <property name="java.runtime.version" value="1.8.0_05-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_05/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.19.3-200.fc21.x86_64"/>
+    <property name="user.home" value="/home/gcordeiro"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="gcordeiro"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_05/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_05"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_05/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_05/jre/lib/resources.jar:/usr/java/jdk1.8.0_05/jre/lib/rt.jar:/usr/java/jdk1.8.0_05/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_05/jre/lib/jsse.jar:/usr/java/jdk1.8.0_05/jre/lib/jce.jar:/usr/java/jdk1.8.0_05/jre/lib/charsets.jar:/usr/java/jdk1.8.0_05/jre/lib/jfr.jar:/usr/java/jdk1.8.0_05/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="anotherExampleWithContiners" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.14"/>
+  <testcase name="complexExample" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.011"/>
+  <testcase name="startStartContainerExample2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="pairOfTasksEndEndFirstOfThemWithOneSubtask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.005"/>
+  <testcase name="exampleStartStart2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.005"/>
+  <testcase name="exampleStartStart3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="twoTasksWithSubtasksRelatedWithEndEnd2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="pairOfTasksEndEnd" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTasksWithSubtasksRelatedWithStartStart2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="twoTasksWithSubtasksRelatedWithStartStart3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="twoPairOfTasksNotConnected" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="pairOfTasksStartStartFirstOfThemWithOneSubtask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="taskContainerWithOneSubtaskDependingOnOneTask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="examplePairOfTasksWithDependencyBothWithEqualConstraint1" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="examplePairOfTasksWithDependencyBothWithEqualConstraint2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="examplePairOfTasksWithDependencyBothWithEqualConstraint3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="taskContainerWithContainerWithSubtask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="trivialBaseCaseWithTwoTasksNotConnected" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="pairOfTasksStartStartFirstOfThemWithOneSubtask2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="pairOfTasksStartStart2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="pairOfTasksStartStart3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="exampleEndEnd2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="exampleEndEnd3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="exampleContainersWithContainers" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="oneTaskWithTwoDependantTasksAndOneCommonDependantTask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="example" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.005"/>
+  <testcase name="twoTasksWithSubtasksRelatedWithStartStart" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="oneTaskWithTwoDependantTasks" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="pairOfTasks" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="endEndContainerExample2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="taskContainerWithAnotherContainer" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTaskWithOneCommonDependantTaskWithTwoDependantTasks" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTaskConnectedAndOneIndependentTask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTaskWithOneCommonDependantTask2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTasksWithSubtasksRelatedWithEndEnd" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="taskContainerWithAnotherContainer2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="oneTaskWithTwoDependantTasksLastOneWithEqualConstraint2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="taskContainerWithTwoSubtasks" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="pairOfTasksEndEndFirstOfThemWithOneSubtask2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="oneTaskDependingOnTaskContainerWithOneSubtask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="oneTaskWithTwoDependantTasksLastOneWithEqualConstraint" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="exampleWithContainers" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="pairOfTasksEndEnd2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="startStartContainerExample" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0"/>
+  <testcase name="exampleEndEnd" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0"/>
+  <testcase name="twoTaskConnectedAndOneIndependentTask2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0"/>
+  <testcase name="exampleStartStart" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="oneTaskWithTwoDependantTasks2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="twoTaskWithOneCommonDependantTaskWithTwoDependantTasks2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="endEndContainerExample" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="taskContainerWithOneSubtask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0"/>
+  <testcase name="pairOfTasksStartStart" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="examplePairOfTasksWithDependencyFirstWithBiggerConstraintAndSecondWithEqualConstraint1" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="examplePairOfTasksWithDependencyFirstWithBiggerConstraintAndSecondWithEqualConstraint2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="examplePairOfTasksWithDependencyFirstWithBiggerConstraintAndSecondWithEqualConstraint3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="twoTaskWithOneCommonDependantTask" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoPairOfTasksNotConnected2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.002"/>
+  <testcase name="twoTaskConnectedAndOneIndependentTaskWithTheSameDuration" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="example2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="example3" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.003"/>
+  <testcase name="trivialBaseCase" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+  <testcase name="oneTaskWithTwoDependantTasksLastOneWithBiggerOrEqualThanConstraint2" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.004"/>
+  <testcase name="oneTaskWithTwoDependantTasksLastOneWithBiggerOrEqualThanConstraint" classname="org.zkoss.ganttz.data.criticalpath.CriticalPathCalculatorTest" time="0.001"/>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.libreplan.web.test.ws.workreports.WorkReportServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.023 sec - in org.libreplan.web.test.ws.workreports.WorkReportServiceTest

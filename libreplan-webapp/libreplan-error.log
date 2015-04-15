@@ -1,0 +1,549 @@
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_task_quality_form_on_task_quality_form_items
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_task_quality_form_on_task_quality_form_items" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_quality_form_on_quality_form_items
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_quality_form_on_quality_form_items" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_user_on_user_profiles
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_user_on_user_profiles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_profile_on_profile_roles
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_profile_on_profile_roles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_user_on_user_roles
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_user_on_user_roles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_calendar_data_on_base_calendar
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_calendar_data_on_base_calendar" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_calendar_exception_on_base_calendar
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_calendar_exception_on_base_calendar" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_assignment drop constraint FK_4fcnwh08qfa7as9n4xp4b9lr5
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_assignment_template drop constraint FK_i7h4a12kxjwnxluhyuw2esgsu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "advance_assignment_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_assignment_template drop constraint FK_342gtbmdu7wd5fk5nnp3mg2di
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "advance_assignment_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_measurement drop constraint FK_higk7dlmr304xs53mjqydnmp6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "advance_measurement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_measurement drop constraint FK_higk7dlmr304xs53mjqydnmp6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "advance_measurement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table all_criterions drop constraint FK_ft7co0lbisnbk8c012b0vto2w
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "all_criterions" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table all_criterions drop constraint FK_esiybfh5uc6o37nsxy4brw8ad
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "all_criterions" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table calendar_availability drop constraint FK_6ai6ich8fgvwv7181b8np9w9k
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "calendar_availability" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table calendar_data drop constraint FK_mnuna5ar2vpqakd0uk6fubf9t
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "calendar_data" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table calendar_data drop constraint FK_1vwlo6lwgkd2gpi9of4b3j4ke
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "calendar_data" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table calendar_exception drop constraint FK_bcje51o2th4qqb51gbn2ym56v
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "calendar_exception" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table calendar_exception drop constraint FK_dqjji677axrf9oglqrxettf40
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "calendar_exception" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table capacity_per_day drop constraint FK_lw613r2el8rvkof0e3gtydrgv
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "capacity_per_day" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table configuration drop constraint FK_hyutx754278c66khojj9mj98q
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "configuration" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table configuration drop constraint FK_m1p73ew0nku14rqw7vft0yx7t
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "configuration" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table configuration drop constraint FK_djd4tgnk5dlou06te8e4sbwmr
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "configuration" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table configuration_roles_ldap drop constraint FK_o0qf3lhc4tyy51humjw5btsqq
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "configuration_roles_ldap" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidated_value drop constraint FK_m796gbgh0ogjnhxtsx4ftdf99
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidated_value" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidated_value drop constraint FK_qywuf14l2tr71nml6ns1vk4ah
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidated_value" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidated_value drop constraint FK_m796gbgh0ogjnhxtsx4ftdf99
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidated_value" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidation drop constraint FK_c8tjkpg1ga3w6x2ab6eddgjr3
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidation drop constraint FK_mevq7ah8atwj1f8qxjiv9s8tq
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidation drop constraint FK_6e01i5q9plg10qrthe70qljyy
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "consolidation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion drop constraint FK_t6ratgtuwsctyu7myrxih4y81
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion drop constraint FK_8npegq6fhp0flvq8vn0ye713c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion drop constraint FK_f3soxx6c69ewh98y600hdxtqs
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_requirement drop constraint FK_l3lomg6xtv7bxjrytsjoi89l3
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_requirement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_requirement drop constraint FK_ist4f84j858gusi4m224nf3pv
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_requirement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_requirement drop constraint FK_7aefoxpkn018hc80debwlsdw0
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_requirement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_requirement drop constraint FK_euyj7uxrffrhlo8w188qarua
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_requirement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_requirement drop constraint FK_pgvc89cqe29fsw39lrc9jifvp
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_requirement" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_satisfaction drop constraint FK_386jwk712ddq86lgppvk2j441
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_satisfaction" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table criterion_satisfaction drop constraint FK_qq0n97dogbttso4qpwdaqc2x0
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "criterion_satisfaction" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table customer_communication drop constraint FK_ir4ikb9vdgdqt3i1cu1en1kr1
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "customer_communication" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table day_assignment drop constraint FK_ikbw0t2mg9p44a9igus215m55
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "day_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table day_assignment drop constraint FK_5yhbqii38ir7pk6nng8ya50ie
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "day_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table day_assignment drop constraint FK_6g1hjgi3ciksqj02ar80dri7c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "day_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table day_assignment drop constraint FK_79m53jugrg1aigv3065ur2r3p
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "day_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table deadline_communication drop constraint FK_g8efuhywscrckpctlpwwn4gqe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "deadline_communication" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table dependency drop constraint FK_hhjo1e4kv3xw6ek0axed7toqw
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "dependency" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table dependency drop constraint FK_pw6w50vmpd43cbvwrxqfu9vye
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "dependency" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table dependency drop constraint FK_mwpxdfjmob1ns4vi4yi74qvy3
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "dependency" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table derived_allocation drop constraint FK_68idsru4bspb5vk5o6pp5prq0
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "derived_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table derived_allocation drop constraint FK_gg4i3fx0x6wl256occrv6kr2d
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "derived_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table derived_day_assignments_container drop constraint FK_pp1j8i3vsn1yj97lmb3msr8sp
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "derived_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table derived_day_assignments_container drop constraint FK_hjk6b94mc65mk3pmpuhb75eas
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "derived_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table description_values drop constraint FK_oeouf9tnaab0asmu1jyi42534
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "description_values" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table description_values_in_line drop constraint FK_h3luc8lpv5g8shbwrcuhbp6ky
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "description_values_in_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table direct_advance_assignment drop constraint FK_1o0apnl0uq97ynfurio6yo700
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "direct_advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table direct_advance_assignment drop constraint FK_qv6nspo2i60hrt9qm15s6bugd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "direct_advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table end_date_communication drop constraint FK_2hkueap1136cq9vp6ysd2350w
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "end_date_communication" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table end_date_communication drop constraint FK_8wpk0aqd5ire9bx2yl77pq5jd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "end_date_communication" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table external_company drop constraint FK_ajopw7eelo8jpff3i8em6rbow
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "external_company" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table generic_day_assignments_container drop constraint FK_j6d1x8m694mecanvj3mtwnpq2
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "generic_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table generic_day_assignments_container drop constraint FK_qw8w4d5u5beb1d3br85xbyujs
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "generic_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table generic_resource_allocation drop constraint FK_mbuf01wfpbs9mok8837ig5f5u
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "generic_resource_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table heading_field drop constraint FK_o6h2edmnw00m48na3gl98t0wl
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "heading_field" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table hour_cost drop constraint FK_pb0umfjbx84gai18oq9m2d4u6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "hour_cost" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table hour_cost drop constraint FK_s92f9s71tn0g8du3o9x1lib7r
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "hour_cost" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table hours_group drop constraint FK_8i24uldigkx85hw88huscncnb
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "hours_group" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table hours_group drop constraint FK_js2kgwt7yi14sdghqlg7uo8q6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "hours_group" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table indirect_advance_assignment drop constraint FK_r8ywe0bqriaa53mryt0yk3f54
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "indirect_advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table indirect_advance_assignment drop constraint FK_ces86fv716d5k61cmwqlue6hd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "indirect_advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table indirect_advance_assignment drop constraint FK_ces86fv716d5k61cmwqlue6hd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "indirect_advance_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table label drop constraint FK_o9mqukfggloynsyfiubjq15l7
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "label" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table limiting_resource_queue drop constraint FK_nkub31tk7bgqgqfihrlp6yiki
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "limiting_resource_queue" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table limiting_resource_queue_dependency drop constraint FK_a2ulwa2bafkw719avnsufx99f
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "limiting_resource_queue_dependency" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table limiting_resource_queue_dependency drop constraint FK_f31xv1uqsv6evh2343tmc5j0l
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "limiting_resource_queue_dependency" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table limiting_resource_queue_element drop constraint FK_jhc6m0ry5x9x5an7vpojbscuo
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "limiting_resource_queue_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table limiting_resource_queue_element drop constraint FK_rehxs46xvef79hhlyrq4f4xye
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "limiting_resource_queue_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table line_field drop constraint FK_h1hfqytc741lq143cu69m6dst
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "line_field" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine drop constraint FK_revlw7jd810rj6cjqcpt78e9y
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine_configuration_unit_required_criterions drop constraint FK_he8oyn9ibg5w3u9ebh3v3cf00
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine_configuration_unit_required_criterions" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine_configuration_unit_required_criterions drop constraint FK_xuuq3t61vly1ohmi6heg26ig
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine_configuration_unit_required_criterions" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine_worker_assignment drop constraint FK_pftb7i9xe3oy7yqs03l5y5ual
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine_worker_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine_worker_assignment drop constraint FK_mxehwn6mmabvlmxrspfs1x636
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine_worker_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table machine_workers_configuration_unit drop constraint FK_gyx46i9tj2b6qjmyfgb1wvigj
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "machine_workers_configuration_unit" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table manual_function drop constraint FK_5c1xfllkiumv2p20nfjya2hn6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "manual_function" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material drop constraint FK_jllp440h5p3q59s8ocl0d1769
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material drop constraint FK_fy544ivwubny3vid4uy7qx1qe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material_assigment drop constraint FK_lpivqhuqsinhxky29mmxw2v8c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material_assigment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material_assigment drop constraint FK_lxwf0wkmg61rxuruyqxdeb609
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material_assigment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material_assigment_template drop constraint FK_ke84fiemmrsreycr1v7dtmgal
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material_assigment_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material_assigment_template drop constraint FK_k2qucojv6psoofrmf1g44bey9
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material_assigment_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table material_category drop constraint FK_p94rtcyqlag3y8rq8vopjsqc2
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "material_category" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_authorization drop constraint FK_6yipq425uo0fs398yqqdbtfnd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_authorization" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_authorization drop constraint FK_g6ec59kn89o23bo69drpak78k
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_authorization" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_authorization drop constraint FK_tmtgratosqqlssqg3508cvuer
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_authorization" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element drop constraint FK_tepvuvstdpnbhfwnsrnbctna2
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element drop constraint FK_nfae5h6lqqyme7bjec3vlcuc6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_label drop constraint FK_ip8td8rx4re0rqfkok7bpu3f1
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_label" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_label drop constraint FK_3cnnn7kc5owelpfkeyuqtir5h
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_label" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_template drop constraint FK_ly8hhatgn24yj56ma97pca3yw
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_template_label drop constraint FK_81rhxk3w16y03sicshe8tdifk
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_template_label" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_template_label drop constraint FK_kuytpkl3g6mo3ea52qvqq13a
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_template_label" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_template_quality_form drop constraint FK_rr9rvquuqr1atpwcpp8qag4lo
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_template_quality_form" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_element_template_quality_form drop constraint FK_g5k1qgmemaeh2aytk074y52f
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_element_template_quality_form" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_line drop constraint FK_a8pqrhtayq6frjlk6q5pcbv1w
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_line_group drop constraint FK_mu9q398cift6c86gnjqssserb
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_line_group" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_line_group_template drop constraint FK_2cbye30kyeg06ggjj3jyqpgvt
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_line_group_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_line_template drop constraint FK_8mmikitcr22344tut850yow1a
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_line_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_sync_info drop constraint FK_qwxrpju7wg7ywxs8foou89jan
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_sync_info" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_table drop constraint FK_gusavs4vigh1xv0i7d08cyh9j
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_table drop constraint FK_ka5gav60hos0hhk49s266it45
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_table drop constraint FK_fpw65wcs8f4vekvvp71tcnwuq
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_template drop constraint FK_6oafuhaoxbis4kdrm7pe97j3x
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_template drop constraint FK_lni3t7r9beypo3o7gobfjc0fk
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_template" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table order_version drop constraint FK_qnqqayomue1iycutgfrgqeffp
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "order_version" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table planning_data drop constraint FK_odql8i80vvg2iq5p0ukrgsbyw
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "planning_data" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table profile_roles drop constraint FK_ej8hg272iq8ef79pa8v8uv4c7
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "profile_roles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table quality_form drop constraint FK_9ntlykyp5yeklfdnf1cmmnpbb
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "quality_form" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table quality_form_items drop constraint FK_3ioisc5274b2cvwtv3q1sp17c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "quality_form_items" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resource drop constraint FK_76utq8e5wmet77rpucf1kjra9
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resource" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resource_allocation drop constraint FK_ee4ldx7o09w94segnfta3qx8j
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resource_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resource_allocation drop constraint FK_nvuf6eyx3wu9sw51mdwm37ik9
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resource_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resource_calendar drop constraint FK_c1u1uhob3b0pg216hpgudgvbh
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resource_calendar" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resources_cost_category_assignment drop constraint FK_enddrjwb38kpfb5kwm6nc2tp3
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resources_cost_category_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table resources_cost_category_assignment drop constraint FK_off1ph6pnbyai6ur9pfb94r5j
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "resources_cost_category_assignment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table roles_table drop constraint FK_97v7wdy4sxb0m44eg4dy822pf
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "roles_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scenario drop constraint FK_docas3krsmsbicy49uw89f2qu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scenario" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scenario_orders drop constraint FK_dwiy9s98dqc4vb77t01ccjvp8
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scenario_orders" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scenario_orders drop constraint FK_5g0g28jn6agk2cbjetxrpls1m
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scenario_orders" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scenario_orders drop constraint FK_n1qijwu89wgefnlc65vy4j20w
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scenario_orders" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scheduling_data_for_version drop constraint FK_hpyx8yi15mab33g4hdvhvej4s
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scheduling_data_for_version" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scheduling_states_by_order_version drop constraint FK_5jn3mmm0pxrj6d9yslvsbrp09
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scheduling_states_by_order_version" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scheduling_states_by_order_version drop constraint FK_s3ny1ej5rf0po1hkjsuxs4g8c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scheduling_states_by_order_version" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table scheduling_states_by_order_version drop constraint FK_637oau0efibpctga0e9y4rxa8
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "scheduling_states_by_order_version" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table sigmoid_function drop constraint FK_dfepy5tbm40dm5sibge7tmwag
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "sigmoid_function" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table specific_day_assignments_container drop constraint FK_gyc4nb6ksfqleui7rmk6gspu9
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "specific_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table specific_day_assignments_container drop constraint FK_m6pb1jqei3dtcm15dx9h388jy
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "specific_day_assignments_container" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table specific_resource_allocation drop constraint FK_fgtgwnnsl5n6xwcfg8g4upc83
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "specific_resource_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table specific_resource_allocation drop constraint FK_7f0mn9ai095sqtbliqi2dqwth
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "specific_resource_allocation" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table stretches drop constraint FK_2h4fvh0v1dm7v9rlk7wu1o6js
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "stretches" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table stretches_function drop constraint FK_kn3c5fqblq2mfi6xfndhww8em
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "stretches_function" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table subcontracted_task_data drop constraint FK_tdqcxle0n3g9o1qtsgmby23yp
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "subcontracted_task_data" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table subcontractor_communication drop constraint FK_o2kxw982xhkowy8e0s2o7llyb
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "subcontractor_communication" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table subcontractor_communication_values drop constraint FK_q09a47w0uu96d7qqmc7w2t1a8
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "subcontractor_communication_values" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table subcontractor_deliver_date drop constraint FK_muop9htwgj84wkafqiylv3csu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "subcontractor_deliver_date" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table sum_charged_effort drop constraint FK_rl6d5v2q6sq89n27104nnyw8g
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "sum_charged_effort" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table sum_expenses drop constraint FK_gqioy1p4wrkqh1cwj6wmi3l1d
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "sum_expenses" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task drop constraint FK_2n5oe3q29jlbs01d8uoxw3mhd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task drop constraint FK_hqbjbunkirai53qm0dvtoj4o7
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_element drop constraint FK_sqx33bvjb7pmiancom3oih5qu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_element drop constraint FK_j2ihhc7wtifnhra4ccelsd186
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_element" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_group drop constraint FK_8oykawo64xb93y041q5inetvu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_group" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_milestone drop constraint FK_bwn4icabln7ckurrldpb57sw4
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_milestone" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_quality_form drop constraint FK_g2uui3u5r3kmn55lh6txo2jev
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_quality_form" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_quality_form drop constraint FK_si9dabk3vjgv7kmxr13bn657i
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_quality_form" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_quality_form_items drop constraint FK_9e61hbqpwiuoy0gelaojxsafr
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_quality_form_items" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_source drop constraint FK_kyutqiuele5abvh4bj84sdfq5
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_source" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_source drop constraint FK_bxbtt4hqp2fyks04xvjt5xgvo
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_source" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_source_hours_groups drop constraint FK_b3m9dgq0fui3kyeo8ce9ldwf9
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_source_hours_groups" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table task_source_hours_groups drop constraint FK_2el3ekjw9q7xwgfqmjktadurm
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "task_source_hours_groups" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_profiles drop constraint FK_1dw8wtns3qwv092j4s80bpu68
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_profiles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_profiles drop constraint FK_e5h89rk3ijvdmaiig4srogdc6
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_profiles" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_table drop constraint FK_1p8m3cvdarbltv8jvktoqk1q5
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_table drop constraint FK_h6u57xu9r0jxuwq0q4bc52ws0
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table user_table drop constraint FK_a8uc0k6el3bs1jwrepi2p2nka
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_table" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table virtual_worker drop constraint FK_qj9duod2hdtx73tad9tb2x04q
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "virtual_worker" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report drop constraint FK_lvvebcqa1uc8ljjrw6f81fxjr
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report drop constraint FK_te38r2c6cbry6uwrqamjmx7vr
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report drop constraint FK_g3hkqnxva5wc2y21vkenv835t
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_label_type_assigment drop constraint FK_b4igb081wa1vhvca0je913f4c
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_label_type_assigment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_label_type_assigment drop constraint FK_n241yimq4s5hmf1tksi2jkhhu
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_label_type_assigment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_label_type_assigment drop constraint FK_ojrhkfo1s80ct0nrrudnm3b3l
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_label_type_assigment" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_line drop constraint FK_30v8yf1doqbx6sr8slj883d6f
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_line drop constraint FK_2nxxqr1qaw1n0g0fp6wkavvw2
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_line drop constraint FK_8r0s03dper2siks5arxwxh55p
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table work_report_line drop constraint FK_8h59nfa5rn981cd5edu74t4fd
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "work_report_line" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table worker drop constraint FK_40w0nd18gooqfq5faqdn9e6du
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "worker" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table worker drop constraint FK_on9i3ygxedph5vi2pik5bt8dj
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "worker" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table workreports_labels drop constraint FK_a736we54yll75wx0ncfy5r3qv
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "workreports_labels" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table workreports_labels drop constraint FK_27qawsd1tcmh1lwh1jtpyfptp
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "workreports_labels" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table workreportslines_labels drop constraint FK_iaqrw0h23b1drydh8nbdfoxfv
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "workreportslines_labels" não existe
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table workreportslines_labels drop constraint FK_jchp9i0u4154ifi0d8yi22sw2
+ERROR [13-Abril 14:40:08] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "workreportslines_labels" não existe
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_measurement add constraint FK_higk7dlmr304xs53mjqydnmp6 foreign key (advance_assignment_id) references direct_advance_assignment
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_higk7dlmr304xs53mjqydnmp6" para relação "advance_measurement" já existe
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidated_value add constraint FK_m796gbgh0ogjnhxtsx4ftdf99 foreign key (consolidation_id) references consolidation
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_m796gbgh0ogjnhxtsx4ftdf99" para relação "consolidated_value" já existe
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table indirect_advance_assignment add constraint FK_ces86fv716d5k61cmwqlue6hd foreign key (indirect_order_element_id) references order_line_group
+ERROR [13-Abril 14:40:19] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_ces86fv716d5k61cmwqlue6hd" para relação "indirect_advance_assignment" já existe
+ERROR [13-Abril 14:40:20] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: CREATE INDEX idx_user_on_user_roles ON user_roles (user_id)
+ERROR [13-Abril 14:40:20] [main] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: relação "user_roles" não existe
+ERROR [13-Abril 14:40:28] [main] org.libreplan.importers.TimSoapClient  - SOAP Exception: 
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:149)
+	at org.libreplan.importers.TimSoapClient.sendRequest(TimSoapClient.java:230)
+	at org.libreplan.importers.TimSoapClient.checkAuthorization(TimSoapClient.java:315)
+	at org.libreplan.importers.TimSoapClientTest.testInvalidAuthorization(TimSoapClientTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:282)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:145)
+	... 27 more
+Caused by: java.net.ConnectException: Conexão recusada
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:237)
+	... 28 more
+
+CAUSE:
+
+com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:282)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:145)
+	at org.libreplan.importers.TimSoapClient.sendRequest(TimSoapClient.java:230)
+	at org.libreplan.importers.TimSoapClient.checkAuthorization(TimSoapClient.java:315)
+	at org.libreplan.importers.TimSoapClientTest.testInvalidAuthorization(TimSoapClientTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.net.ConnectException: Conexão recusada
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:237)
+	... 28 more
+
+CAUSE:
+
+java.net.ConnectException: Conexão recusada
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1103)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.post(HttpSOAPConnection.java:237)
+	at com.sun.xml.internal.messaging.saaj.client.p2p.HttpSOAPConnection.call(HttpSOAPConnection.java:145)
+	at org.libreplan.importers.TimSoapClient.sendRequest(TimSoapClient.java:230)
+	at org.libreplan.importers.TimSoapClient.checkAuthorization(TimSoapClient.java:315)
+	at org.libreplan.importers.TimSoapClientTest.testInvalidAuthorization(TimSoapClientTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+ERROR [13-Abril 14:40:48] [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - ERRO: duplicar valor da chave viola a restrição de unicidade "uk_n1u2atn9njq2hhc0rx7a4nrpe"
+  Detalhe: Chave (code)=(code1) já existe.
+ERROR [13-Abril 14:40:48] [pool-2-thread-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - ERRO: inserção ou atualização em tabela "sum_expenses" viola restrição de chave estrangeira "fk_gqioy1p4wrkqh1cwj6wmi3l1d"
+  Detalhe: Chave (order_element_id)=(639) não está presente na tabela "order_element".
+ERROR [13-Abril 14:40:48] [pool-3-thread-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - ERRO: inserção ou atualização em tabela "sum_charged_effort" viola restrição de chave estrangeira "fk_rl6d5v2q6sq89n27104nnyw8g"
+  Detalhe: Chave (order_element)=(639) não está presente na tabela "order_element".
+ERROR [13-Abril 14:40:54] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: DROP INDEX idx_user_on_user_roles
+ERROR [13-Abril 14:40:54] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: índice "idx_user_on_user_roles" não existe
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table advance_measurement drop constraint FK_higk7dlmr304xs53mjqydnmp6
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_higk7dlmr304xs53mjqydnmp6" da relação "advance_measurement" não existe
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table consolidated_value drop constraint FK_m796gbgh0ogjnhxtsx4ftdf99
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_m796gbgh0ogjnhxtsx4ftdf99" da relação "consolidated_value" não existe
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table indirect_advance_assignment drop constraint FK_ces86fv716d5k61cmwqlue6hd
+ERROR [13-Abril 14:40:55] [Thread-6] org.hibernate.tool.hbm2ddl.SchemaExport  - ERRO: restrição "fk_ces86fv716d5k61cmwqlue6hd" da relação "indirect_advance_assignment" não existe

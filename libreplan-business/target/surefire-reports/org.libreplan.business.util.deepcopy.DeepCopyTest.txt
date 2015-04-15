@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.libreplan.business.util.deepcopy.DeepCopyTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.libreplan.business.util.deepcopy.DeepCopyTest

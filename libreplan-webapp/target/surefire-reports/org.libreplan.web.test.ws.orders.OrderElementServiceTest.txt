@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.libreplan.web.test.ws.orders.OrderElementServiceTest
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.206 sec - in org.libreplan.web.test.ws.orders.OrderElementServiceTest
